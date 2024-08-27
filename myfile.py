@@ -4,7 +4,7 @@ def insertionSort(array):
     if size<=1:
         return
     
-    for i in range (1, size+1):
+    for i in range (1, size):
         key = array[i]
         j = i-1
         while j >= 0 and key < array[j]:
